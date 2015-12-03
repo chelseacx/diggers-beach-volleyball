@@ -19,10 +19,11 @@
 	<div id="header">
     
     	<div id="logo">
+
     	
-        LOGO HERE
+        <img class="logo" src="../Images/logo.gif" alt="A rotating volleyball logo for Diggers Beach Volleyball." /> 
         
-    	</div>
+        </div>
     
     </div>
     

@@ -12,6 +12,7 @@ html, body {
 }
 
 
+
 #container {
 	width: 100%;
 	height: 100%;
@@ -21,7 +22,7 @@ html, body {
 
 
 #header {
-	height: 42.10526316%;
+	height: 60%;
 	width: 100%;
 	margin: 0 auto;
 	background-color: #C3C; 			/* REMOVE THIS LATER */
@@ -29,14 +30,21 @@ html, body {
 
 #logo {
 
-	height: 26.3157894737%;
-	width: 26.3157894737%;
+	height: 50%;
+	width: 40%;
 	background-color: #FFF; 			/* REMOVE THIS LATER */	
 	position: absolute;
-	left: 36.8421052632%;
-	top: 15.7894736842%;		
+	left: 30%;
+	top: 10%;		
 			
 
+}
+
+img.logo {
+	display: block;
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 
