@@ -3,67 +3,65 @@
 
 
 
-body {
-    margin:0;
+html, body {
+	width: 100%;
+    height: 100%;
+	margin:0;
     padding:0;
+	font-size: 100%;
 }
 
 
 #container {
-	width: 950px;
+	width: 100%;
 	height: 100%;
-	margin: auto;
+	margin: 0 auto;
 	background-color: #CF6; 			/* REMOVE THIS LATER */
 }
 
 
 #header {
-	height: 400px;
-	width: 950px;
-	margin: 0;
+	height: 42.10526316%;
+	width: 100%;
+	margin: 0 auto;
 	background-color: #C3C; 			/* REMOVE THIS LATER */
 }
 
-
 #logo {
 
-	height: 250px;
-	width: 250px;
-	margin: 0;
-	background-color: #FFF; 			/* REMOVE THIS LATER */
-	position: relative;
-	left: 350px;
-	top: 150px;							/* MINUS OFF NAVBAR HEIGHT LATER */
-	
+	height: 26.3157894737%;
+	width: 26.3157894737%;
+	background-color: #FFF; 			/* REMOVE THIS LATER */	
+	position: absolute;
+	left: 36.8421052632%;
+	top: 15.7894736842%;		
+			
+
 }
 
 
-
 #nav_bar {
-	width: 950px;
-	height: 40px;
-	margin: 0;
-	float: left;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
 	background-color: #09F; 			/* REMOVE THIS LATER */
 }
 
 #content {
-	width: 950px;
+	width: 100%;
 	height: auto;
-	margin: 0;
-	float: left;
+	margin: 0 auto;
 	background-color: #F90; 			/* REMOVE THIS LATER */
 }
 
 
 
 #footer {
-	width: 950px;
-	height: 20px;
-	margin: 0;
-	float: left;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
 	text-align: center;
-	font-size: small;
+	font-size: 80%;
 	background-color: #9C9; 			/* REMOVE THIS LATER */
 }	
 
