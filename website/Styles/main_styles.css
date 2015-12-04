@@ -25,24 +25,29 @@ html, body {
 	height: 60%;
 	width: 100%;
 	margin: 0 auto;
-	background-color: #C3C; 			/* REMOVE THIS LATER */
+	background-image: url(../Images/header_bg.png); /*header_bg1 as brighter alternative*/
+	background-size: 100% 100%;
 }
 
 #logo {
 
 	height: 50%;
 	width: 40%;
-	background-color: #FFF; 			/* REMOVE THIS LATER */	
 	position: absolute;
 	left: 30%;
-	top: 10%;		
+	top: 10%;	
+
 			
 
 }
 
 img.logo {
 	display: block;
-	margin: 0 auto;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 90%;
+	width: auto;
 	max-height: 100%;
 	max-width: 100%;
 }
