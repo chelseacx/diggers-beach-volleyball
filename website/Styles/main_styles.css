@@ -17,15 +17,15 @@ html, body {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	background-color: #CF6; 			/* REMOVE THIS LATER */
 }
+
 
 
 #header {
 	height: 60%;
 	width: 100%;
 	margin: 0 auto;
-	background-image: url(../Images/header_bg.png); /*header_bg1 as brighter alternative*/
+	background-image: url(../Images/header_bg.png);
 	background-size: 100% 100%;
 }
 
@@ -54,27 +54,98 @@ img.logo {
 
 
 #nav_bar {
+	font-size: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
-	background-color: #09F; 			/* REMOVE THIS LATER */
+	padding: 0%;
+	background-color: #FFF; 
+	display: inline-table;
+
 }
+
+#nav_bar ul {
+	padding: 0% 5%;
+	margin: 0;
+	list-style:none;
+}
+
+#nav_bar ul::after {
+	display: block;
+	clear: both;	
+}
+
+#nav_bar ul > li {
+	float: left;
+	padding: 1% 3%;
+	position: relative;
+}
+
+
+#nav_bar ul > li > ul {
+	display: none;
+}
+
+#nav_bar ul li:hover {
+	font-weight: bold;
+}
+
+
+#nav_bar ul li:hover > ul {
+	position: absolute;
+	top: 100%;
+	left: 10%;
+	background-color: #FFF;
+	color: #666;
+	font-size: 0.9em;
+	font-weight: normal;
+	display: block;
+	width: 150%;
+	height: auto;
+	z-index: 100;
+}
+
+#nav_bar ul li:hover > ul li:hover {
+
+	background-color: #FFF;
+
+}
+
+#nav_bar ul li:hover > ul li:hover a {
+
+	color: #999;
+
+}
+
+#nav_bar a {
+
+	color: #666;
+	text-decoration: none;
+	
+}
+
 
 #content {
 	width: 100%;
-	height: auto;
-	margin: 0 auto;
-	background-color: #F90; 			/* REMOVE THIS LATER */
+	height: 80%;
+	min-height: 50%;
+	margin: 0;
+	padding: 8%;
+	background-image: url(../Images/content_bg.png); 		
+	background-size: auto 100%;
+	background-repeat: repeat-x;
 }
-
 
 
 #footer {
 	width: 100%;
-	height: auto;
+	height: 4%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 80%;
-	background-color: #9C9; 			/* REMOVE THIS LATER */
+	font-size: 0.8em;
+	padding-bottom: 2%;
+	background-color: #FFF;
 }	
 

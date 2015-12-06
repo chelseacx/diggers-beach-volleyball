@@ -29,7 +29,26 @@
     
     <div id="nav_bar">
     
-    NAV BAR HERE
+        <ul>
+ 		  	<li><a href="../index.html">Index</a></li>
+   	  		<li>Volleyball
+        		<ul>
+            		<li><a href="../what_is_it.html">What is it?</a></li>
+                	<li><a href="../who_can_play.html">Who can play?</a></li>
+                	<li><a href="../playing_guidelines.html">Playing Guidelines</a></li>
+            	</ul>
+            </li>
+        	<li>Competition
+        		<ul>
+            		<li><a href="../current_ladder.html">Current Ladder</a></li>
+                	<li><a href="../team_registration.html">Team Registration</a></li>
+            	</ul>
+            </li>
+        	<li><a href="../announcements.html">Announcements</a></li>
+        	<li><a href="../contacts.html">Contacts</a></li>
+        	<li><a href="../links.html">Links</a></li>
+    	</ul>
+    
     
     </div>
     
@@ -38,6 +57,7 @@
     <div id="content"> 
     
     CONTENT HERE 
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         
     </div>
     
