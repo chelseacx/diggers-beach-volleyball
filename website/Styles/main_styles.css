@@ -55,7 +55,7 @@ img.logo {
 	font-weight: bold;
 	color: #333;
 	width: 70%;
-	height: auto;
+	height: 10%;
 	padding-left: 17%;
 	margin: 0 auto;
 	background-color: #FFF; 
@@ -110,7 +110,7 @@ img.logo {
 	display: block;
 	border-radius: 10%;
 	padding: 5%;
-	width: 100%;
+	width: 110%;
 	height: auto;
 	z-index: 100;
 }
@@ -129,7 +129,8 @@ img.logo {
 
 #content {
 	width: 70%;
-	height: 80%;
+	height: auto;
+	min-height: 2%
 	min-height: 50%;
 	margin: 0;
 	padding: 10% 15%;
@@ -137,6 +138,8 @@ img.logo {
 	background-size: auto 100%;
 	background-repeat: repeat-x;
 	overflow: hidden;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.2em;
 }
 
 

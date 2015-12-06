@@ -52,17 +52,9 @@
     
     </div>
     </div>
-    
-    
-    
-
-    <div id="content"> 
-    
-    CONTENT HERE 
-        
-    </div>
-    
-
+    <!-- TemplateBeginEditable name="content_div" -->
+    <div id="content"> CONTENT HERE </div>
+    <!-- TemplateEndEditable -->
     <div id="footer">
     
     &copy; All Rights Reserved 2015
