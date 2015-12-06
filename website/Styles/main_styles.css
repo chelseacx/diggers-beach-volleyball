@@ -30,15 +30,11 @@ html, body {
 }
 
 #logo {
-
 	height: 50%;
 	width: 40%;
 	position: absolute;
 	left: 30%;
-	top: 10%;	
-
-			
-
+	top: 10%;		
 }
 
 img.logo {
@@ -56,14 +52,24 @@ img.logo {
 #nav_bar {
 	font-size: 1em;
 	font-family: Verdana, Geneva, sans-serif;
-	color: #666;
-	width: 100%;
+	font-weight: bold;
+	color: #333;
+	width: 70%;
 	height: auto;
+	padding-left: 17%;
 	margin: 0 auto;
-	padding: 0%;
 	background-color: #FFF; 
-	display: inline-table;
+	display: inline-block;
+}
 
+#nav_bar a {
+	color: #333;
+	text-decoration: none;
+}
+
+#nav_bar a:hover {
+	color: #666;
+	text-decoration: none;
 }
 
 #nav_bar ul {
@@ -89,7 +95,7 @@ img.logo {
 }
 
 #nav_bar ul li:hover {
-	font-weight: bold;
+	color: #666;
 }
 
 
@@ -98,11 +104,13 @@ img.logo {
 	top: 100%;
 	left: 10%;
 	background-color: #FFF;
-	color: #666;
+	color: #000;
 	font-size: 0.9em;
 	font-weight: normal;
 	display: block;
-	width: 150%;
+	border-radius: 10%;
+	padding: 5%;
+	width: 100%;
 	height: auto;
 	z-index: 100;
 }
@@ -114,37 +122,30 @@ img.logo {
 }
 
 #nav_bar ul li:hover > ul li:hover a {
-
 	color: #999;
-
 }
 
-#nav_bar a {
-
-	color: #666;
-	text-decoration: none;
-	
-}
 
 
 #content {
-	width: 100%;
+	width: 70%;
 	height: 80%;
 	min-height: 50%;
 	margin: 0;
-	padding: 8%;
+	padding: 10% 15%;
 	background-image: url(../Images/content_bg.png); 		
 	background-size: auto 100%;
 	background-repeat: repeat-x;
+	overflow: hidden;
 }
 
 
 #footer {
-	width: 100%;
+	width: 96%;
 	height: 4%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	padding-bottom: 2%;
 	background-color: #FFF;
 }	
