@@ -150,6 +150,52 @@ img.logo {
 	color: #333;
 }
 
+#content ul {
+	line-height: 1.8em;
+	list-style: none;
+	margin-top: 0.6em;
+	padding-left: 0.3em;
+}
+
+#content ul > ul {
+	padding-left: 5%;
+	padding-bottom: 1%;
+}
+
+#content h2 {
+	margin: 0;
+	border: 0;
+}
+
+#content table {
+
+	border-collapse: collapse;
+	width: 90%;
+	text-align: center;	
+	margin: 0 auto;
+}
+
+#content th, td {
+	padding: 0.7em;
+	border-bottom: 1px solid black;
+}
+
+#content th {
+	font-weight: bold;
+}
+
+#content tr:hover {
+	background-image: url(../Images/table_hover_bg.png);
+}
+
+.content_form {
+
+	background-image: url(../Images/form_bg.png);
+	background-size: 100%;
+	width: 40%;
+	margin: 0 auto;
+}
+
 
 #footer {
 	width: 96%;
@@ -161,3 +207,6 @@ img.logo {
 	background-color: #FFF;
 }	
 
+.increase_line_height {
+	line-height: 1.8em;
+}
