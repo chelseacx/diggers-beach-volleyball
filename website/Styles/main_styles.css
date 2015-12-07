@@ -150,19 +150,7 @@ img.logo {
 	color: #333;
 }
 
-#content ul {
-	line-height: 1.8em;
-	list-style: none;
-	margin-top: 0.6em;
-	padding-left: 0.3em;
-}
-
-#content ul > ul {
-	padding-left: 5%;
-	padding-bottom: 1%;
-}
-
-#content h2 {
+#content h1, h2, h3 {
 	margin: 0;
 	border: 0;
 }
@@ -184,7 +172,7 @@ img.logo {
 	font-weight: bold;
 }
 
-#content tr:hover {
+.row_hover tr:hover {
 	background-image: url(../Images/table_hover_bg.png);
 }
 
