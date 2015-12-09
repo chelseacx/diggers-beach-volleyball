@@ -172,18 +172,18 @@ img.logo {
 	font-weight: bold;
 }
 
-.row_hover tr:hover {
-	background-image: url(../Images/table_hover_bg.png);
+.td_image {
+	padding: 0 5%; 
+	margin: 0;
 }
 
-.content_form {
-
-	background-image: url(../Images/form_bg.png);
-	background-size: 100%;
+.td_text {
+	padding: 0 5%; 
+	border: 0; 
+	margin: 0;
 	width: 40%;
-	margin: 0 auto;
+	text-align: left; 
 }
-
 
 #footer {
 	width: 96%;
@@ -195,6 +195,104 @@ img.logo {
 	background-color: #FFF;
 }	
 
+#what_is_table {
+	width: 100%;
+	font-size: 0.7em;
+}
+
+#guidelines_content {
+	padding: 0% 10%;
+}
+
+#registration_form {
+	background-image: url(../Images/form_bg.png);
+	background-size: 100%;
+	width: 40%;
+	margin: 0 auto;
+}
+
+#announcements {
+	padding: 0 10%;
+}
+
+
+.center_text {
+	text-align: center;
+}
+
+.center_w_side_borders {
+	text-align:center; 
+	padding: 10% 20%; 
+	border-left: 0.1em dashed black; 
+	border-right: 0.1em dashed black;
+}
+
 .increase_line_height {
 	line-height: 1.8em;
+}
+
+.italic_increase_line_height {
+	font-style: italic;
+	line-height: 1.8em;
+}
+
+.left_padding {
+	padding-left: 3%;
+}
+
+.sixty_width {
+	padding: 0; 
+	border: 0; 
+	width: 60%
+}
+
+.small_text {
+	font-size:0.7em;
+}
+
+.note {
+	font-size: 0.8em;
+}
+
+.follow_up {
+	font-size: 0.9em;
+}
+
+.follow_up_italic {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.small_bold {
+	font-size: 0.9em; 
+	font-weight: bold; 
+	line-height: 1.8em;
+}
+
+.large_font {
+	font-size: 1.2em;
+}
+
+.navy {
+	color: #339;
+}
+
+.float_left {
+	float: left;
+	clear: right;
+}
+
+.float_left_x_padding {
+	float:left; 
+	clear:right; 
+	padding: 0 0.4em;
+}
+
+.float_left_clear_both {
+	float: left;
+	clear: both;
+}
+
+.row_hover tr:hover {
+	background-image: url(../Images/table_hover_bg.png);
 }

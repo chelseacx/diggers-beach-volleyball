@@ -55,52 +55,82 @@
     <!-- InstanceBeginEditable name="content_div" -->
     <div id="content"> 
     
-    <form method="post" action="form_action.html" class="content_form">
-	
-	<fieldset>
-    <legend style="font-size: 1.2em;">Team Registration</legend>
-    <br />
-    Team Name: <input style="float:right; clear: both;" type="text" name="team_name" maxlength="10"/>
-    <br /><br />
-    Liaison's Name: <input style="float:right; clear: both;" type="text" name="liaison_name" maxlength="20"/>
-    <br /><br />
-    Phone Number: <input style="float:right; clear: both;" type="text" name="phone_number" maxlength="15"/>
-    <br /><br />
-    Email Address: <input style="float:right; clear: both;" type="text" name="email" maxlength="50"/>
-    <br /><br />
-    Competition Days: 
-    <br />
-    <div style="float:left; clear:right;">
+        <form method="post" action="form_action.html" id="registration_form">
+        
+            <fieldset>
+            
+                <legend class="large_font">Team Registration</legend>
+                
+                <br />
+                
+                Team Name: <input style="float:right; clear: both;" type="text" name="team_name" maxlength="10"/>
+                <br /><br />
+                
+                Liaison's Name: <input style="float:right; clear: both;" type="text" name="liaison_name" maxlength="20"/>
+                <br /><br />
+                
+                Phone Number: <input style="float:right; clear: both;" type="text" name="phone_number" maxlength="15"/>
+                <br /><br />
+                
+                Email Address: <input style="float:right; clear: both;" type="text" name="email" maxlength="50"/>
+                <br /><br />
+                
+                Competition Days: 
+                <br />
+                
+                <div class="float_left">
+                
+                    <input type="checkbox" name="competition_day" value="monday" />Monday
+                    <br />
+                    
+                    <input type="checkbox" name="competition_day" value="thursday" />Thursday
+                    
+                </div>
+                    
+                <div class="float_left_x_padding">
+                    
+                    <input type="checkbox" name="competition_day" value="tuesday" />Tuesday
+                    <br />
+                    
+                    <input type="checkbox" name="competition_day" value="friday" />Friday
+                    
+                </div>
+                    
+                <div class="float_left">
+                
+                    <input type="checkbox" name="competition_day" value="wednesday" />Wednesday
+                    <br />
+                    
+                    <input type="checkbox" name="competition_day" value="saturday" />Saturday
+                    
+                </div>
+                <br /><br /><br />
+                
+                
+                <div class="float_left_clear_both">
+                
+                    <input class="float_left_clear_both" type="checkbox" required name="playing_guidelines" value="accept" />
+                    
+                    <p style="padding: 0 1.5em; margin: 0; border: 0;">
+                    
+                        I have read and agree with the <a href="playing_guidelines.html" target="_blank">Playing Guidelines.</a>
+                        
+                    </p>
+                    
+                </div>
+                
+                <br /><br /><br />
+                
+                <p class="center_text">
+                
+                    <input type="submit" value="Submit Form"/>
+                    
+                </p>
     
-    <input type="checkbox" name="competition_day" value="monday" />Monday
-    <br />
-    <input type="checkbox" name="competition_day" value="thursday" />Thursday
-    
-    </div>
-    
-    <div style="float:left; clear:right; padding: 0 0.4em;">
-    
-	<input type="checkbox" name="competition_day" value="tuesday" />Tuesday
-    <br />
-    <input type="checkbox" name="competition_day" value="friday" />Friday
-    </div>
-    
-    <div style="float:left; clear:right;">
-    <input type="checkbox" name="competition_day" value="wednesday" />Wednesday
-    <br />
-    <input type="checkbox" name="competition_day" value="saturday" />Saturday
-    </div>
-	
-	<br /><br /><br />
-	<div style="float:left; clear:both;"><input style="float:left; clear:both;" type="checkbox" required name="playing_guidelines" value="accept" /><p style="padding: 0 1.5em; margin: 0; border: 0;">I have read and agree with the <a href="playing_guidelines.html" target="_blank">Playing Guidelines.</a></p></div>
-    <br /><br /><br />
-    <p style="text-align:center;"><input type="submit" value="Submit Form"/></p>
-
-
-    
-    </fieldset>
-    </form>
-    
+            </fieldset>
+            
+        </form>
+        
     </div>
     <!-- InstanceEndEditable -->
     <div id="footer">
